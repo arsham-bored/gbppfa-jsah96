@@ -9,6 +9,8 @@ type Test = {
   name: string
 }
 
+// comment from Arsham
+
 platformBrowserDynamic().bootstrapModule(AppModule).then(ref => {
   // Ensure Angular destroys itself on hot reloads.
   if (window['ngRef']) {
